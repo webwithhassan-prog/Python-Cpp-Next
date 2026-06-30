@@ -4,14 +4,16 @@ while True:
  passw = str(input("Enter Password : "))
  passCount += 1 
  if len(passw) != 4:
-   print("-----Enter only 4 digits password-----")
+   print("------ Enter only 4 digits password -----")
  if passw != savedPass:
-   print(f"-----You tried password {passCount} times-----")
-   print("-----You have entered Wrong Password-----")
+   
+   print(f"------- Password Tries Count : {passCount} --------")
+   print("---- You have entered Wrong Password ----")
  if passCount >= 3 and passw != savedPass :
-    print("-----Try again after 30 secs-----")
+    print("------- Try again after 30 secs ---------")
  print("----------------------------------------------------")
  if passw == savedPass:
+  print(f"Entered Password : {passw}")
   print(f"-----Password Matched Finally After {passCount} tries !!!-----")
   break
 
