@@ -1,4 +1,3 @@
-# Youtube video url: https://www.youtube.com/watch?v=zgUxviAqrLU
 def dec(func):
     def innerFunc(n):
         print("Welcome")
