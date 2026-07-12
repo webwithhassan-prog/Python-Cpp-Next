@@ -1,0 +1,9 @@
+Logged IN 
+Balance Checked 
+Logged OUT 
+
+Logged IN
+Cash Withdrawl amount : 3000 
+ Remaining balance : 17000 
+Logged OUT
+
